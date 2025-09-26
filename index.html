@@ -1,51 +1,77 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Mi Super</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-
   <div class="container">
     <header>
-      <img src="https://i.imgur.com/JczA1Vl.png" alt="Logo Super">
-      <a href="#">tienda</a>
+      <h1>Mi Tienda</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <nav>
-      <a href="#">Inicio</a>
-      <a href="#">Categoría1</a>
-      <a href="#">Categoría2</a>
-      <a href="#">Categoría3</a>
-    </nav>
+    <section class="login">
+      <h3>Iniciar Sesión</h3>
+      <form>
+        <label for="email">Correo:</label>
+        <input type="email" id="email" required>
 
-    <div class="formulario">
-      <b>Entrar a la web</b>
-      <label>Email</label>
-      <input type="text" name="email">
-      <label>Contraseña</label>
-      <input type="password" name="password">
-      <input type="submit" value="enviar">
-    </div>
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" required>
 
-    <div class="productos">
-      <b>productos</b>
-      <p><strong>Arroz</strong><br>$1.000</p>
-      <p><strong>Cafe</strong><br>$5.000</p>
-      <p><strong>Aceite</strong><br>$1.500</p>
-      <p><strong>Leche</strong><br>$5.000</p>
-    </div>
+        <input type="submit" value="Ingresar">
+      </form>
+    </section>
 
-    <div class="footer">
-      desarrollado por jean paul © 2025
-    </div>
+    <section class="productos">
+      <h2>Productos destacados</h2>
+
+      <div class="item">
+        <img src="imagenes/arroz.png" alt="Arroz">
+        <div>
+          <h4>Arroz</h4>
+          <p>1000 pesos</p>
+          <a href="#">Comprar</a>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="imagenes/cafe.png" alt="Café">
+        <div>
+          <h4>Café</h4>
+          <p>5000 pesos</p>
+          <a href="#">Comprar</a>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="imagenes/aceite.png" alt="Aceite">
+        <div>
+          <h4>Aceite</h4>
+          <p>1500 pesos</p>
+          <a href="#">Comprar</a>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="imagenes/leche.png" alt="Leche">
+        <div>
+          <h4>Leche</h4>
+          <p>5000 pesos</p>
+          <a href="#">Comprar</a>
+        </div>
+      </div>
+    </section>
   </div>
-
 </body>
 </html>
 
-=======
-<h1>Hola, esta es mi tienda</h1>
->>>>>>> 0c66ea90e0850ba05477a0b1251c73acdbe43a0f
